@@ -1,7 +1,7 @@
 new Vue({
   el: "#app",
   data: {
-    attachedRed: false
+    attachRed: false
   },
   computed: {
     divClasses: function() {

@@ -1,17 +1,18 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="app.css" >
+    <link rel="stylesheet" type="text/css" href="app.css">
     <script src="vue.js"></script>
-    <script src="app.js"></script>
     <title>VueJS</title>
   </head>
   <body>
     <div id="app">
       <div class="demo"
            @click="attachRed = !attachRed"
-           :class="divClasses"></div>
+           :class="divClasses"
+      ></div>
       <div class="demo"></div>
       <div class="demo"></div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

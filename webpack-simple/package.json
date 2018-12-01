@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "tern": "^0.23.0",
     "vue": "^2.5.17"
   },
   "devDependencies": {
@@ -19,21 +20,17 @@
     "@vue/eslint-config-prettier": "^3.0.3",
     "@vue/test-utils": "^1.0.0-beta.20",
     "chai": "^4.1.2",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
     "root": true,
-    "env": {
-      "node": true
-    },
     "extends": [
       "plugin:vue/essential",
-      "@vue/prettier"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
+      "plugin:prettier/recommended",
+      "eslint:recommended"
+    ]
   },
   "postcss": {
     "plugins": {

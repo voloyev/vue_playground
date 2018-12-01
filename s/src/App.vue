@@ -11,7 +11,7 @@
   </div>
 </template>
 <script>
-import Servers from "./components/Servers/Server.vue";
+import Server from "./components/Servers/Server.vue";
 import ServerDetails from "./components/Servers/ServerDetails.vue";
 import Header from "./components/Shared/Header.vue";
 import Footer from "./components/Shared/Footer.vue";

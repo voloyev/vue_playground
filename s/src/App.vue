@@ -3,7 +3,7 @@
     <header-cmp></header-cmp>
     <hr>
     <div class="row">
-      <server-cmp></server-cmp>
+      <server></server>
       <server-details></server-details>
     </div>
     <hr>
@@ -13,15 +13,15 @@
 <script>
 import Server from "./components/Servers/Server.vue";
 import ServerDetails from "./components/Servers/ServerDetails.vue";
-import Header from "./components/Shared/Header.vue";
-import Footer from "./components/Shared/Footer.vue";
+import HeaderCmp from "./components/Shared/Header.vue";
+import FooterCmp from "./components/Shared/Footer.vue";
 
 export default {
   components: {
-    "header-cmp": Header,
-    "server-cmp": Server,
-    "server-details": ServerDetails,
-    "footer-cmp": Footer
+    HeaderCmp,
+    Server,
+    ServerDetails,
+    FooterCmp
   }
 };
 </script>
